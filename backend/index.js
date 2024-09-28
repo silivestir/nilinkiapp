@@ -6,6 +6,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const path = require('path');
 const { Pool } = require('pg');
+const fs = require('fs');
 const http = require('http');
 const socketIo = require('socket.io');
 const AUDIO_DIR = path.join(__dirname, 'audio');
